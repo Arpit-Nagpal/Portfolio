@@ -212,8 +212,10 @@ button, input {
   max-width: 1024px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  text-align: center;
+
+  /* grid-template-columns: 1fr 1fr;
+  gap: 1.5rem; */
 }
 
 .aboutme-span {
@@ -224,23 +226,28 @@ button, input {
 }
 
 .aboutme-details {
+
   font-size: 1.2rem;
   line-height: 2.6rem;
   font-weight: 300;
 }
 
 .aboutme-details pre, span {
+  text-align: center;
+
   color: white;
 }
 
 .aboutme-text p {
   font-size: 0.9rem;
   letter-spacing: 1px;
-  text-align: justify;
   margin-bottom: 1.5rem;
   color: #fff;
 }
 
+strong{
+  color: #18978F;
+}
 
 /* Education */
 
